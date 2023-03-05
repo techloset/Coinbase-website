@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='max-lg:flex max-lg:flex-row max-lg:items-center max-lg:gap-44 max-md:gap-24 '>
       {/* className='max-lg:w-20 max-lg:h-7' */}
         <button  className='lg:hidden max-lg:pt-4'> <Hamburger easing="ease-in" onToggle={clickMe} color='gray' size={30} direction='left' toggled={isOpen} toggle={setIsOpen} /></button>
-       <img src="navimg/logo.png"  alt=""  className='pt-4  max-sm:hidden'/> 
+       <img src="navimg/Logo.png"  alt=""  className='pt-4  max-sm:hidden'/> 
       </div>
 
         <ol className='flex justify-center 

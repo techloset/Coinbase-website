@@ -44,7 +44,7 @@ const Experience = () => {
           <div className='sm:flex sm:flex-row sm:justify-center   sm:mt-16 sm:align-baseline gap-7 sm:gap-14 flex flex-col justify-center items-center mt-5'>
 
             <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px]    w-[100px] h-[70px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
-              <img src="navimg/Bitcoin.png" alt="" width='40px' height='40px' />
+              <img src="navimg/bitcoin.png" alt="" width='40px' height='40px' />
               <p className='font-bold text-md'>Bitcoin</p>
             </div>
           
