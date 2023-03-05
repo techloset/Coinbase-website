@@ -13,7 +13,7 @@ const Footer = () => {
                             Fusce vel metus pharetra, fermentum</p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/4 md:w-1/2 w-full px-4 max-sm:hidden">
                             <h2 className="title-font font-medium text-white tracking-widest text-md mb-3">CoinBaseLinks</h2>
                             <nav classNameName="list-none mb-10 text-sm ">
                                 <ol>
@@ -55,7 +55,7 @@ const Footer = () => {
 
                             </nav>
                         </div>
-                        <section className='mx-auto sm:mx-auto'>
+                        <section className='mx-auto sm:mx-auto max-sm:hidden'>
                             <div>
 
                                 <h1>CoinBase Instagram</h1>
