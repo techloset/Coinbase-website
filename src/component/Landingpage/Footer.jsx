@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <footer className="text-white body-font" style={{ background: '#151515' }}>
-                <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <footer className="text-white body-font bg-gray-900" >
+                <div className="container px-5 py-24 mx-auto text-left flex  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto  text-center md:text-left">
                         <a className="flex title-font font-medium items-center md:justify-start  justify-center cursor-pointer">
                             <img src="navimg/Logo1.png" alt="" />
@@ -55,16 +55,16 @@ const Footer = () => {
 
                             </nav>
                         </div>
-                        <section className='mx-12'>
+                        <section className='mx-auto sm:mx-auto'>
                             <div>
 
                                 <h1>CoinBase Instagram</h1>
                             </div>
 
-                            <div className='grid grid-rows-2 grid-flow-col gap-2 mt-6  justify-center'>
+                            <div className='grid grid-rows-3 sm:grid-rows-2 grid-flow-col gap-2 mt-6  justify-center'>
                                 <div className='w-20 h-20 bg-gray-300 '></div>
                                 <div className='w-20 h-20 bg-gray-300 '></div>
-                                <div className='w-20 h-20 bg-gray-300 flex items-center justify-center font-light text-4xl'>+</div>
+                                <div className='w-20 h-20 bg-gray-300 flex items-center justify-center  font-light text-4xl'>+</div>
                                 <div className='w-20 h-20 bg-gray-300 '></div>
                                 <div className='w-20 h-20 bg-gray-300 '></div>
                                 <div className='w-20 h-20 bg-gray-300 '></div>

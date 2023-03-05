@@ -51,8 +51,11 @@ const Contact = () => {
                 </div>
               </div>
               <div className="p-2 mt-5 w-full">
-                <button classNameName="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-full text-lg"
-                  style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
+                {/* <button classNameName="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-xl text-lg"
+                  style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button> */}
+                   <button className='bg-white font-bold rounded-full self-start w-36 h-11  font-poppins cursor-pointer text-lg' >
+            <span className="bg-gradient-to-b from-[#C35B95] to-[#B254AB]" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GET STARTED</span>
+          </button>
               </div>
 
             </div>
