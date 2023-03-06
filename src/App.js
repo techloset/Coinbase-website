@@ -1,6 +1,4 @@
 
-// import './App.css';
-// // import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Landingpage from "./component/Landingpage/Landingpage";
 import About from './component/Aboutpage/About'
@@ -10,7 +8,6 @@ import BlogContent from './component/Blogpage/BlogContent'
 function App() {
   return (
     <>
-      {/* <h1 className='text-center text-[red]'>hello world</h1> */}
   
 <BrowserRouter>
 

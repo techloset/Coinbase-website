@@ -55,30 +55,28 @@ const Getstart = () => {
 </section>
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
-      {/* <div className='  bg-center   w-full flex justify-center items-center ' style={{ height: '800px', backgroundImage: 'url("navimg/BG1.png")', backgroundSize: "cover" }}>
+      <div className='  bg-center   w-full flex justify-center items-center ' style={{ height: '800px', backgroundImage: 'url("navimg/BG1.png")', backgroundSize: "cover" }}>
 
         <div className=' bg-white w-[91%]  xl:w-3/4 h-1/3 mt-32  rounded-lg'>
           <div className='flex justify-around mt-4 border-b-2 pb-5 font-bold text-lg
           bg-gradient-to-b from-[#C35B95] to-[#B254AB] text-transparent bg-clip-text cursor-pointer'>
             <h1>OUR RATES</h1>
-            <h1>OUR RESERVES</h1>
-            <h1>LATEST EXCHANGES</h1>
+            <h1 className='max-sm:hidden'>OUR RESERVES</h1>
+            <h1 className='max-lg:hidden'>LATEST EXCHANGES</h1>
            
             
           </div>
 
           <div className='flex justify-between mx-10 mt-10 ' >
             <section>
-            <h1 className='font-bold text-lg lg:hidden
-          bg-gradient-to-b from-[#C35B95] to-[#B254AB] text-transparent bg-clip-text cursor-pointer'>OUR RATES</h1>
-              <div className='flex justify-between gap-5 '>
+              <div className='flex justify-between gap-2 sm:gap-5 '>
                 <div className='flex gap-3 '>
-                  <h1>    <img src="navimg/bitcoin.png" alt="" />  </h1>
+                  <h1>    <img src="navimg/Bitcoin1.png" alt="" />  </h1>
                   <span> BTC</span>
                 </div>
-                <div className=''>   <p>We Buy @ <b> ₦350/$ </b></p>   <p>We Sell @ <b> ₦370/$ </b></p> </div>
+                <div className=''><p>We Buy@<b>₦350/$</b></p><p>We Sell@<b>₦370/$</b></p></div>
               </div>
-              <div className='flex gap-5 mt-5'>
+              <div className='flex gap-2 sm:gap-5 mt-5'>
                 <h1>
                   <img src="navimg/Eth.png" alt="" />
                 </h1>
@@ -90,9 +88,7 @@ const Getstart = () => {
               </div>
             </section>
 
-            <section>
-            <h3 className='font-bold text-lg lg:hidden
-          bg-gradient-to-b from-[#C35B95] to-[#B254AB] text-transparent bg-clip-text cursor-pointer'>OUR RESERVES</h3>
+            <section className='max-sm:hidden'>
               <div className='flex justify-between gap-5 '>
                 <div className='flex gap-3'>
                   <h1>
@@ -109,7 +105,7 @@ const Getstart = () => {
               </div>
               <div className='flex gap-5 mt-1'>
                 <h1>
-                  <img src="navimg/bitcoin.png" alt="" />
+                  <img src="navimg/Bitcoin1.png" alt="" />
                 </h1>
                 <span> Bitcoin</span>
                 <div className=''>
@@ -131,9 +127,8 @@ const Getstart = () => {
 
 
 
-            <section>
-            <h3 className='font-bold text-lg lg:hidden
-          bg-gradient-to-b from-[#C35B95] to-[#B254AB] text-transparent bg-clip-text cursor-pointer'>LATEST EXCHANGES</h3>
+            <section className='max-lg:hidden'>
+           
               <div className='flex justify-between gap-5 '>
                 <div className='flex gap-3'>
                   <span className='text-xs'> Bitcoin BTC <img src="navimg/Transfer.png" alt="" />
@@ -162,7 +157,7 @@ const Getstart = () => {
         </div>
         <div>
         </div>
-      </div> */}
+      </div>
 
     </>
   )
