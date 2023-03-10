@@ -10,7 +10,7 @@ const Clients = () => {
                         <br /> around the world</h1>
                     <img src="navimg/Line.png" alt="" class="mx-auto my-auto mt-4 " style={{ width: '50px', heigth: '0px', alignItems: 'center', justifyContent: 'center' }} />
 
-                    <p className="lg:w-2/3  w-[80%] leading-10 mt-5 font-poppins font-normal  font-100 text-sm leading-40 text-center text-white" >Yeah! we’re proud with numbers.
+                    <p className="w-[60%] sm:[35%] xl:w-[35%]   leading-10 mt-5 font-poppins font-normal  font-100 text-sm leading-40 text-center text-white" >Yeah! we’re proud with numbers.
                         We’ve helped thousands of clients all around the world with our bespoke service.
                         Hover ontop of them pic to view their testimonials.</p>
                 </div>

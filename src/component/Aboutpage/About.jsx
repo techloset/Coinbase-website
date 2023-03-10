@@ -9,29 +9,29 @@ const About = () => {
   return (
     <>
       <Navbar />
-    
 
-<div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
+
+      <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
         backgroundImage: 'url("navimg/BG.png")',
       }}>
 
-        <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-3  ' style={{width:'314px',height:''}}>
-        <p className='text-xs'>HOME/ABOUT US</p>
-          <h6 className='font-poppins text-md  sm:text-2xl sm:leading-8'>Great service, Professional support </h6>
-          <p className='text-xs sm:text-sm  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
+        <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
+          <p className='text-xs font-normal'>HOME/ABOUT US</p>
+
+          <h6 className='font-poppins text-2xl  font-bold sm:text-4xl sm:leading-[2.6rem]'>Great service,
+            Professional support</h6>
+          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
-          <button className='bg-white font-bold rounded-full self-start w-[157px] h-[54px]  font-poppins cursor-pointer text-md' >
-            <span className="bg-gradient-to-b from-[#C35B95] to-[#B254AB]" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GET STARTED</span>
-          </button>
+
         </div>
         <div >
-          <img src="navimg/ABOUTIMG.png" alt="" className='mt-5 md:mt-10 w-[220px] h-[220px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px]'  />
+          <img src="navimg/ABOUTIMG.png" alt="" className='mt-5 md:mt-10 w-[220px] h-[220px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px] ' />
         </div>
       </div>
 
-      <div className='flex flex-col justify-center  items-center w-[70%]  md:w-[34%] gap-5 h-15 sm:h-48 leading-7 mt-0 sm:leading-10 max-lg:h-[80%] mx-auto'>
+      <div className='flex flex-col justify-center  items-center w-[70%]  md:w-[512px] gap-5 h-15 sm:h-48 leading-7 mt-0 sm:leading-10 max-lg:h-[80%] mx-auto'>
         <p className='bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent 
-        bg-clip-text cursor-pointer font-bold text-start pt-0'
+        bg-clip-text cursor-pointer font-bold  pt-0 text-lg text-center'
         >
           “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
           Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
@@ -42,7 +42,7 @@ const About = () => {
 
 
 
-      <section className="border-fuchsia-800  my-10  border-2 sm:border-2 lg:border-2 max-w-[300px] sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto h-[70%] rounded-xl">
+      <section className="border-fuchsia-400  my-10  border-2 sm:border-2  lg:border-2 max-w-[300px] sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto h-[70%] rounded-3xl">
         <div className="container mx-auto flex py-6  sm:py-12 items-center justify-center flex-col ">
           <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-3 sm:mb-10 object-cover object-center rounded " alt="hero" src="navimg/Layer 2.png" />
           <div className="flex flex-col justify-center items-center text-center lg:w-2/3 w-full gap-3 sm:gap-7">
@@ -50,8 +50,8 @@ const About = () => {
                  leading-10 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text">About CoinBase</h1>
             <img src="navimg/Line.png" alt="" />
-            <p className="mb-8 leading-5 sm:leading-10 text-justify items-center  w-[77%]">CoinBase is an online site and a p2admin platform that 
-            allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
+            <p className="mb-8 leading-5 sm:leading-10 text-center items-center  text-base  sm:w-[525px]">CoinBase is an online site and a p2admin platform that
+              allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
             </p>
             <div className="flex justify-center flex-row gap-10">
               <img src="navimg/Quality.png" alt="" />
@@ -66,20 +66,20 @@ const About = () => {
       <div className="flex flex-col justify-center items-center mx-auto lg:w-2/3  gap-7">
 
         <h1 className="font-poppins font-bold text-2xl sm:text-3xl
-                 leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+                 leading-14 bg-gradient-to-b from-[#D664A4] to-[#B856A9]
                    text-transparent bg-clip-text">Our history</h1>
         <img src="navimg/Line.png" alt="" />
 
         <div className="flex flex-row justify-evenly items-center ">
           <div className='flex flex-col w-[50%] sm:w-[34%] text-end gap-5 sm:gap-16 md:gap-56'>
             <div className=" p-4 ">
-              <h1 className='text-pink-500 text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2010</h1>
+              <h1 className='text-[#ed7fb2] text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2010</h1>
               <p className='leading-4 md:leading-8'>
                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
                 at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
             </div>
             <div className=" p-4 ">
-              <h1 className='text-pink-500 text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2019</h1>
+              <h1 className='text-[#ed7fb2] text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2019</h1>
               <p className='leading-4 md:leading-8'>
                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
                 at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
@@ -91,7 +91,7 @@ const About = () => {
             <img src="navimg/Tree.png" className="md:w-5 md:h-[15%]  h-[2%] sm:w-3 sm:h-[5%]" alt="your-image-description" />
           </div>
           <div className="w-[50%] sm:w-1/3 p-4">
-            <h1 className='text-pink-500 text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2017</h1>
+            <h1 className='text-[#ed7fb2] text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2017</h1>
             <p className='leading-4 md:leading-8'>
               Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
               at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
@@ -106,31 +106,31 @@ const About = () => {
         <div className="container  flex  py-12 items-center justify-center flex-col ">
           <div className="flex flex-col justify-center items-center text-center lg:w-2/3 w-full gap-7">
             <h1 className="font-poppins font-bold text-2xl sm:text-3xl
-                 leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+                 leading-14 bg-gradient-to-b from-[#D664A4] to-[#B856A9]
                    text-transparent bg-clip-text">Meet the team</h1>
             <img src="navimg/Line.png" alt="" />
-            <p className=" leading-5 sm:leading-10 text-justify items-center  w-[60%]">Meet the team that  makes the process of this system fast and painless as possible to provide you with good result
+            <p className=" leading-5 sm:leading-10 font-normal text-base text-center items-center  w-[542px]">Meet the team that  makes the process of this system fast and painless as possible to provide you with good result
             </p>
           </div>
         </div>
       </section>
 
-      <section className=" relative">
-        <div className="h-[68%] w-[25%] top-[20%] left-[15%]   z-10 bg-gray-300 shadow-lg  rounded-xl absolute">
+      <section className=" relative flex flex-wrap 3xl:3xl:w-1/3 ">
+        <div className="h-[185px]  w-[299px] top-[20%] left-[15%]   z-10 bg-[#C4C4C4] shadow-lg  rounded-xl absolute">
         </div>
 
-        <div className="h-[85%] w-[25%] top-[10%] left-[28%]  z-10 bg-gray-300   shadow-lg    rounded-xl   absolute">
+        <div className="h-[233px]  w-[299px] top-[10%] left-[28%]  z-10 bg-[#C4C4C4]   shadow-lg    rounded-xl   absolute">
         </div>
-        <div className="h-[68%] w-[25%] top-[20%] right-[15%]  z-10 bg-gray-300 shadow-lg  rounded-xl absolute">
+        <div className="h-[185px]  w-[299px] top-[20%] right-[15%]  z-10 bg-[#C4C4C4] shadow-lg  rounded-xl absolute">
         </div>
 
-        <div className="h-[85%] w-[25%]  right-[28%] top-[10%]   z-10   bg-gray-300  shadow-lg   rounded-xl  absolute">
+        <div className="h-[233px]  w-[299px] right-[28%] top-[10%]   z-10   bg-[#C4C4C4]  shadow-lg   rounded-xl  absolute">
         </div>
 
         <div className="flex   w-full justify-center items-center ">
 
-          <div className="h-72 w-80  opacity-50  z-20 bg-gradient-to-b from-[#FD749B] to-[#281AC8]
-                   text-transparent  rounded-xl  ">
+          <div className="h-[285px] w-[299px]    z-20 bg-gradient-to-b from-[#f19aca] to-[#987fae]
+                   text-transparent  rounded-xl  "   >
             <div className='relative w-[70%] h-[100%]'>
 
               <p className='text-white  items-end text-center absolute bottom-0 left-4 p-4'>CEO Amanda Roth</p>

@@ -12,11 +12,12 @@ const Contact = () => {
         backgroundImage: 'url("navimg/BG.png")'
       }}>
 
-        <div className='flex flex-col text-white    lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-6 mainText1 ' style={{ width: '314px', height: '' }}>
-          <p className='text-xs ml-3'>HOME/CONTACT US</p>
-          <h6 className='font-poppins font-bold text-2xl ml-3 leading-10'>24/7 Customer support
+        <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
+          <p className='text-xs font-normal'>HOME/CONTACT US</p>
+
+          <h6 className='font-poppins text-2xl  font-bold sm:text-4xl sm:leading-[2.6rem]'>24/7 Customer support
             Including weekends.</h6>
-          <p className='text-xs leading-5 ml-3'>We’re always there ti help regardless the number
+          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>We’re always there ti help regardless the number
             of queries at hand.</p>
 
         </div>
@@ -65,30 +66,11 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className="mx-auto md:w-2/3 my-10 sm:my-24 overflow-hidden sm:mr-10 p-10 flex items-start justify-start relative">
-        <iframe
-          title="map"
-          className="absolute inset-0 w-[100%] h-[100%] lg:w-[66%] lg:h-[100%]"
-          src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-          frameBorder="0"
-          scrolling="no"
-          style={{ filter: 'yellowscale(1) contrast(1.2) opacity(0.4)' }}
-          allowFullScreen
-        ></iframe>
-        <div className="bg-white lg:w-[35%] relative flex flex-wrap  w-[100%] lg:ml-28 py-6 rounded-xl items-center shadow-md">
-          <div className=" px-8 flex flex-row gap-5 mt-3">
-            <img src="navimg/pin-3.png" alt="" className='h-6 w-8' />
-            <p className="">P681 W Canal Rd, Amin Town, Faisalabad, Pakistan</p>
-          </div>
-          <div className=" px-8 flex flex-row gap-5 mt-4">
-            <img src="navimg/phone-call.png" alt="" className='h-6 w-5' />
-            <p className="">Landline: +92 (41) 87 50005</p>
-          </div> <div className=" px-8 flex flex-row gap-5 mt-5">
-            <img src="navimg/email-83.png" alt="" className='h-5 w-6' />
-            <p className="">info@techloset.com</p>
-          </div>
-        </div>
+      <div className='flex justify-center items-center mb-20'>
+        <img src="navimg/Group 437.svg" alt="" />
       </div>
+
+     
 
       <Footer />
 

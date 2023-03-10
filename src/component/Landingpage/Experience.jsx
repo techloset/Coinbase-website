@@ -8,9 +8,10 @@ const Experience = () => {
         <div className="container px-5 md:px-20 py-10  mx-auto">
           <div className="lg:w-full mx-auto  flex flex-row max-lg:flex max-lg:flex-col-reverse">
             <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 leading-10">
-              <h1 className="font-bold text-2xl sm:font-bold sm:text-2xl mb-3 leading-10 bg-gradient-to-b from-[#C35B95] to-[#B254AB] text-transparent bg-clip-text">Welcome to CoinBase</h1>
+              <h1 className="font-bold text-2xl sm:font-bold sm:text-2xl mb-3 leading-10 bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent bg-clip-text">Great experience <br />
+                with CoinBase</h1>
               <img src="navimg/Line.png" alt="" />
-              <p className="leading-5 sm:leading-10 mb-6 ">CoinBase is an online site and a
+              <p className="leading-5 sm:leading-10 mb-6 w-[89%]">CoinBase is an online site and a
                 p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely.
                 Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
               </p>
@@ -31,7 +32,7 @@ const Experience = () => {
 
       {/* Trade from anywhere */}
 
-      <div className='bg-center mt-10 sm:mt-16 flex justify-center items-center ' style={{   height: '550px', backgroundImage: 'url("navimg/BGG.png")',   backgroundSize: "cover" }} >
+      <div className='bg-center mt-10 sm:mt-16 flex justify-center items-center ' style={{ height: '550px', backgroundImage: 'url("navimg/BGG.png")', backgroundSize: "cover" }} >
         <div className=' bg-white mt-6 sm:mt-32 lg:w-[980px] lg:h-[504px] md:w-[700px] md:h-[450px]  sm:w-[500px] sm:h-[350px] w-[300px] h-[300px] shadow-lg rounded-2xl  '>
           <div className='flex text-center justify-center mt-10'>
             <h4 className="font-poppins font-bold sm:text-2xl text-lg
@@ -47,9 +48,9 @@ const Experience = () => {
               <img src="navimg/bitcoin.png" alt="" width='40px' height='40px' />
               <p className='font-bold text-md'>Bitcoin</p>
             </div>
-          
-             <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px] w-[100px] h-[70px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
-              <img src="navimg/Gift cards.png" alt=""  width='40px' height='40px'/>
+
+            <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px] w-[100px] h-[70px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
+              <img src="navimg/Gift cards.png" alt="" width='40px' height='40px' />
               <p className='font-bold text-md'>Gift Cards</p>
             </div>
           </div>

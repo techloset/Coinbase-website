@@ -20,7 +20,7 @@ const BlogContent = () => {
       </div>
 
       <div class="flex justify-center items-center">
-        <div class="my-container text-center w-[75%] sm:w-[60%] text-gray-600">
+        <div class="my-container text-center w-[75%] sm:w-[50%] text-gray-600">
           <p className='sm:leading-7  font-normal text-sm text-justify '>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
           </p>
@@ -72,7 +72,7 @@ const BlogContent = () => {
                 </div>
               </div>
               <div class="lg:w-[39%] w-full mb- sm:mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                <img alt="feature" class="object-cover object-center h-full w-full" src="navimg/Reference IMG.png" />
+                <img alt="feature" class="object-cover object-center w-[486px] h-[486px]" src="navimg/Reference IMG.png" />
               </div>
             </div>
           </section>
