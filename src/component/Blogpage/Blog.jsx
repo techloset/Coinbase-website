@@ -1,13 +1,18 @@
 import React from 'react'
 import Footer from '../Landingpage/Footer'
 import Navbar from '../Landingpage/Navbar'
+import bg from '../../images/blogpage/BG.svg'
+import Img from '../../images/blogpage/IMG.svg'
+import Friends from '../../images/blogpage/friend.svg'
+import Merry from '../../images/blogpage/merry.svg'
+import Eth from '../../images/blogpage/eth.svg'
 const Blog = () => {
   return (
     <>
       <Navbar />
 
       <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg1' style={{
-        backgroundImage: 'url("navimg/BG.png")'
+        backgroundImage: `url(${bg})`
       }}>
 
         <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
@@ -19,13 +24,13 @@ const Blog = () => {
 
         </div>
         <div className=''>
-          <img src="navimg/BLOGIMG.png" alt="" className='mainImg1 ' />
+          <img src={Img} alt="" className='mainImg1 ' />
         </div>
       </div>
 
 
       <div className=" mx-auto flex w-2/3 sm:w-5/6   sm:py-16    flex-col ">
-        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src="navimg/IMG Placeholder.png" />
+        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src={Friends} />
         <div className=" flex justify-center gap-3 flex-col text-center h-[70%] py-5 sm:py-16 rounded-b-3xl border-l-2 border-r-2 border-b-2 border-fuchsia-600">
           <h1 className=" font-poppins sm:text-3xl text-lg  sm:mb-4 font-bold bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text  ">HOW TO SELL YOUR ITUNES GIFTCARD WITH US.</h1>
@@ -43,7 +48,7 @@ const Blog = () => {
       </div>
 
       <div className=" mx-auto flex w-2/3 sm:w-5/6  py-10 sm:py-16    flex-col ">
-        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src="navimg/merry.png" />
+        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src={Merry} />
         <div className=" flex justify-center gap-5 flex-col text-center h-[70%] py-5 sm:py-16 rounded-b-3xl border-l-2 border-r-2 border-b-2 border-fuchsia-600">
           <h1 className=" font-poppins sm:text-4xl text-xl  sm:mb-4 font-bold bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text  ">HOW TO SELL YOUR ITUNES GIFTCARD WITH US.</h1>
@@ -63,7 +68,7 @@ const Blog = () => {
           </div>
         </div>
       </div> <div className=" mx-auto flex w-2/3 sm:w-5/6   sm:py-16    flex-col ">
-        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src="navimg/Exchange.png" />
+        <img className="lg:w-[100%]   sm:[80%]  object-cover object-center rounded" alt="hero" src={Eth} />
         <div className=" flex justify-center gap-5 flex-col text-center h-[70%] py-5 sm:py-16 rounded-b-3xl border-l-2 border-r-2 border-b-2 border-fuchsia-600">
           <h1 className=" font-poppins sm:text-4xl text-xl  sm:mb-4 font-bold bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text  ">HOW TO SELL YOUR ITUNES GIFTCARD WITH US.</h1>

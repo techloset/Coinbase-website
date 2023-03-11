@@ -2,8 +2,11 @@ import React from 'react'
 import Getstart from '../Landingpage/Getstart'
 import Navbar from '../Landingpage/Navbar'
 import Footer from '../Landingpage/Footer'
-
-
+import bg from '../../images/aboutpage/BG.svg'
+import img from '../../images/aboutpage/IMG.svg'
+import aboutimg from '../../images/aboutpage/imgabout.svg'
+import qualities from '../../images/aboutpage/Qualities.svg'
+import tree from '../../images/aboutpage/Tree.svg'
 
 const About = () => {
   return (
@@ -12,7 +15,7 @@ const About = () => {
 
 
       <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
-        backgroundImage: 'url("navimg/BG.png")',
+        backgroundImage: `url(${bg})`,
       }}>
 
         <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
@@ -25,7 +28,7 @@ const About = () => {
 
         </div>
         <div >
-          <img src="navimg/ABOUTIMG.png" alt="" className='mt-5 md:mt-10 w-[220px] h-[220px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px] ' />
+          <img src={img} alt="" className='mt-5 md:mt-10 w-[220px] h-[220px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px] ' />
         </div>
       </div>
 
@@ -35,7 +38,7 @@ const About = () => {
         >
           “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
           Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
-        <img src="navimg/Line.png" alt="" />
+        {/* <img src="navimg/Line.png" alt="" /> */}
         <p className='text-sm'>Ramon Ridwan • CEO CoinBase</p>
       </div>
 
@@ -44,21 +47,22 @@ const About = () => {
 
       <section className="border-fuchsia-400  my-10  border-2 sm:border-2  lg:border-2 max-w-[300px] sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto h-[70%] rounded-3xl">
         <div className="container mx-auto flex py-6  sm:py-12 items-center justify-center flex-col ">
-          <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-3 sm:mb-10 object-cover object-center rounded " alt="hero" src="navimg/Layer 2.png" />
+          <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-3 sm:mb-10 object-cover object-center rounded " alt="hero" src={aboutimg} />
           <div className="flex flex-col justify-center items-center text-center lg:w-2/3 w-full gap-3 sm:gap-7">
             <h1 className="font-poppins font-bold text-2xl sm:text-3xl
                  leading-10 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text">About CoinBase</h1>
-            <img src="navimg/Line.png" alt="" />
+            {/* <img src="navimg/Line.png" alt="" /> */}
             <p className="mb-8 leading-5 sm:leading-10 text-center items-center  text-base  sm:w-[525px]">CoinBase is an online site and a p2admin platform that
               allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
             </p>
-            <div className="flex justify-center flex-row gap-10">
+            <img src={qualities} alt="" />
+            {/* <div className="flex justify-center flex-row gap-10">
               <img src="navimg/Quality.png" alt="" />
               <img src="navimg/medal.png" alt="" />
               <img src="navimg/customer-review.png" alt="" />
               <img src="navimg/support.png" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -68,7 +72,7 @@ const About = () => {
         <h1 className="font-poppins font-bold text-2xl sm:text-3xl
                  leading-14 bg-gradient-to-b from-[#D664A4] to-[#B856A9]
                    text-transparent bg-clip-text">Our history</h1>
-        <img src="navimg/Line.png" alt="" />
+        {/* <img src="navimg/Line.png" alt="" /> */}
 
         <div className="flex flex-row justify-evenly items-center ">
           <div className='flex flex-col w-[50%] sm:w-[34%] text-end gap-5 sm:gap-16 md:gap-56'>
@@ -88,7 +92,7 @@ const About = () => {
           </div>
           <div>
 
-            <img src="navimg/Tree.png" className="md:w-5 md:h-[15%]  h-[2%] sm:w-3 sm:h-[5%]" alt="your-image-description" />
+            <img src={tree} className="md:w-5 md:h-[15%]  h-[2%] sm:w-3 sm:h-[5%]" alt="your-image-description" />
           </div>
           <div className="w-[50%] sm:w-1/3 p-4">
             <h1 className='text-[#ed7fb2] text-base md:text-2xl font-extrabold leading-5 md:leading-10'>May 2017</h1>
@@ -108,7 +112,7 @@ const About = () => {
             <h1 className="font-poppins font-bold text-2xl sm:text-3xl
                  leading-14 bg-gradient-to-b from-[#D664A4] to-[#B856A9]
                    text-transparent bg-clip-text">Meet the team</h1>
-            <img src="navimg/Line.png" alt="" />
+            {/* <img src="navimg/Line.png" alt="" /> */}
             <p className=" leading-5 sm:leading-10 font-normal text-base text-center items-center  w-[542px]">Meet the team that  makes the process of this system fast and painless as possible to provide you with good result
             </p>
           </div>
@@ -146,7 +150,7 @@ const About = () => {
                           leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                                 text-transparent bg-clip-text">Subscribe our newsletter
           </h1>
-          <img src="navimg/Line.png" alt="" class="mx-auto my-auto mt-4" style={{ width: '50px', heigth: '0px', alignItems: 'center', justifyContent: 'center' }} />
+          {/* <img src="navimg/Line.png" alt="" class="mx-auto my-auto mt-4" style={{ width: '50px', heigth: '0px', alignItems: 'center', justifyContent: 'center' }} /> */}
           <p className="mt-4 text-sm md:w-[60%] tracking-wide leading-7">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
           <div className="flex w-full justify-center mt-11 items-end ">
             <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">

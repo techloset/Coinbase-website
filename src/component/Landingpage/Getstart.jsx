@@ -1,15 +1,24 @@
 import React from 'react'
 import './getStart.css'
+import LandingBG from '../../images/landingpage/BG.svg'
+import IMG from '../../images/landingpage/IMG.svg'
+import Layer from '../../images/landingpage/landing_layer.svg'
+import Rates from '../../images/landingpage/rates.svg'
+import Bitcoin from '../../images/landingpage/bitcoin.svg'
+import Eth from '../../images/landingpage/Eth.svg'
+import Bankbuilding from '../../images/landingpage/bank-building.svg'
+
+
 
 const Getstart = () => {
   return (
     < >
 
-      <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
-        backgroundImage: 'url("navimg/BG.png")',
+      <div className='md:justify-evenly  flex w-full h-[1200px] bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
+        backgroundImage: `url(${LandingBG})`,
       }}>
 
-        <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
+        <div className='flex flex-col text-white ml-16  lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
           <h6 className='font-poppins text-2xl  font-normal sm:text-4xl sm:leading-[2.6rem]'>We provide easy solution
             to exchange you <b className='tracking-wide sm:tracking-wide'>    Bitcoin / GiftCard for money </b></h6>
           <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
@@ -19,7 +28,7 @@ const Getstart = () => {
           </button>
         </div>
         <div >
-          <img src="navimg/IMG.png" alt="" className='w-[280px] h-[280px] lg:w-[628px] lg:h-[519px] md:w-[500px] md:h-[470px] mt-7' />
+          <img src={IMG} alt="" className='w-[280px] h-[280px] lg:w-[628px] lg:h-[519px] md:w-[500px] md:h-[470px] mt-7' />
         </div>
       </div>
 
@@ -28,10 +37,10 @@ const Getstart = () => {
       <section className="text-gray-600">
         <div className="container px-5 md:px-12  mx-auto">
           <div className="lg:w-full mx-auto  flex flex-row max-lg:flex max-lg:flex-col">
-            <img alt="ecommerce" class="lg:w-1/2 mt-0" src="navimg/Layer 2.png" />
+            <img alt="ecommerce" class="lg:w-1/2 mt-0" src={Layer} />
             <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 ">
               <h1 className="font-bold text-2xl sm:font-bold sm:text-3xl mb-3 sm:leading-10 bg-gradient-to-b from-[#FD749B] to-[#B254AB] text-transparent bg-clip-text">Welcome to CoinBase</h1>
-              <img src="navimg/Line.png" alt="" />
+              {/* <img src="navimg/Line.png" alt="" /> */}
               <p className="leading-5 sm:leading-10 text-sm mb-6 text-black">We have the best rates . Simply start your exchange right now. Sign up
                 for our Affiliate program and earn commission from each
                 exchange. The earnings are credited in your account instantly and
@@ -50,7 +59,7 @@ const Getstart = () => {
       </section>
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
-      <div style={{ backgroundImage: 'url("navimg/BG1.png")' }} className='w-full bg-center h-[900px] bg-no-repeat bg-cover flex justify-center items-center '>
+      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[1550px] bg-no-repeat bg-cover flex justify-center items-center '>
         <div className='w-[80%] sm:w-[50%] lg:w-[1050px] h-[340px]  shadow-xl scroll scroll rounded-3xl overflow-y-auto mt-36 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
             <p  >OUR RATES</p>
@@ -64,7 +73,7 @@ const Getstart = () => {
               <div className='flex gap-5 mt-7' >
 
                 <p className='flex items-center justify-center gap-3 h-fit'>
-                  <img src='navimg/Bitcoin1.png' alt="" /></p>
+                  <img src={Bitcoin} alt="" /></p>
                 BTC
                 <div>
 
@@ -78,7 +87,7 @@ const Getstart = () => {
               <div className='flex gap-8' >
 
                 <p className='flex items-center justify-center gap-3 h-fit'>
-                  <img src='navimg/Eth.png' alt="" /></p>
+                  <img src={Eth} alt="" /></p>
                 ETH
                 <div>
 
@@ -97,7 +106,7 @@ const Getstart = () => {
 
                 <p className='flex flex-row gap-10 h-fit'>
                   <div className='flex items-center justify-center gap-2 h-fit '>
-                    <img src='navimg/bank-building.png' alt="" />
+                    <img src={Bankbuilding}   alt="" />
                     Bank Transfer
                   </div> <p>NGN</p>  </p>
                 <p className='self-end'> <b>#3452030300303.24/$ </b> </p>
@@ -109,7 +118,7 @@ const Getstart = () => {
 
                 <div
                   className='flex items-center justify-center gap-2 h-fit'        >
-                  <img src='navimg/bitcoin1.png' alt="" />
+                  <img src={Bitcoin} alt="" />
                   Bitcoin
                 </div>
                 <p><b>399.98</b> BTC</p>
@@ -120,7 +129,7 @@ const Getstart = () => {
               <p className='flex gap-10 h-fit'>
                 <div
                   className='flex items-center justify-center gap-2 h-fit'        >
-                  <img src='navimg/Eth.png' alt="" />
+                  <img src={Eth} alt="" />
                   Ethereum
                 </div>
                 <p><b>1000.00</b> ETH</p>

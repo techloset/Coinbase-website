@@ -1,6 +1,9 @@
 import React from 'react'
 import Footer from '../Landingpage/Footer'
 import Navbar from '../Landingpage/Navbar'
+import bg from '../../images/blogcontent/BG.svg'
+import ReferenceIMG from '../../images/blogcontent/Reference_IMG.svg'
+import SocialIcons from '../../images/blogcontent/Social_Icons.svg'
 
 const BlogContent = () => {
   return (
@@ -9,7 +12,7 @@ const BlogContent = () => {
       <Navbar />
 
       <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg1' style={{
-        backgroundImage: 'url("navimg/CONTACTBG.png")'
+        backgroundImage: `url(${bg})`
       }}>
         <div class=" flex justify-center w-full flex-col text-center h-[70%] py-16 ">
           <h1 class=" font-poppins sm:text-4xl text-3xl mb-4 font-bold  text-white ">ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER <br /> Transactions</h1>
@@ -72,7 +75,7 @@ const BlogContent = () => {
                 </div>
               </div>
               <div class="lg:w-[39%] w-full mb- sm:mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                <img alt="feature" class="object-cover object-center w-[486px] h-[486px]" src="navimg/Reference IMG.png" />
+                <img alt="feature" class="object-cover object-center w-[486px] h-[486px]" src={ReferenceIMG} />
               </div>
             </div>
           </section>
@@ -96,9 +99,7 @@ const BlogContent = () => {
             <h1 className='font-Poppins font-bold text-sm text-left'>Tags: Business, Capital, Finance</h1>
             <div className='flex flex-row gap-7 mb-3'>
               <p className='pt-2'>Share with</p>
-              <img src="navimg/Facebook.png" alt="" />
-              <img src="navimg/Twitter.png" alt="" />
-              <img src="navimg/Youtube.png" alt="" />
+              <img src={SocialIcons} alt="" />
             </div>
           </div>
 

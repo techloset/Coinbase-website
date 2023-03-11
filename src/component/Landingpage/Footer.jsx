@@ -1,4 +1,6 @@
 import React from 'react'
+import FooterLogo from '../../images/landingpage/footerLogo.svg'
+import socialmediaIcons from '../../images/landingpage/Social-Media-Icons.svg'
 
 const Footer = () => {
     return (
@@ -7,11 +9,11 @@ const Footer = () => {
                 <div className="container px-5 pt-[80px] pl-[81px] mx-auto text-left flex  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto  text-center md:text-left">
                         <a className="flex title-font font-medium items-center md:justify-start  justify-center cursor-pointer">
-                            <img src="navimg/footerlogo.svg" alt="" />
+                            <img src={FooterLogo} alt="" />
                         </a>
                         <p className="mt-8 text-sm leading-6 text-gray-400"> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue.
                             Fusce vel metus pharetra, fermentum</p>
-                            <img src="navimg/Social Media Icons.svg" alt="" className='mt-4'/>
+                            <img src={socialmediaIcons} alt="" className='mt-4'/>
                             <p className='font-normal text-sm opacity-40 mix-blend-normal mt-24'>© 2019 Designed by Cr8tiv_yemmy</p>
                     </div>
                     <div className="flex-grow flex flex-wrap md:pl-20  md:mt-0 mt-10 md:text-left text-center">

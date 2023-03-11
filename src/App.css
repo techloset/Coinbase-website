@@ -1,27 +1,29 @@
-
-*{
-font-family: 'Poppins';
+* {
+  font-family: 'Poppins';
 
 }
-body{
+
+body {
   overflow-x: hidden;
-  /* overflow-y: hidden; */
 }
-.loginBTN{
+
+.loginBTN {
   width: 157px;
   height: 54px;
   color: white;
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
-border-radius: 100px;
-font-family: 'Poppins';
-cursor: pointer;
-font-size: larger;
+  border-radius: 100px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  font-size: larger;
 
 }
-.border-gradient{
+
+.border-gradient {
+
   position: relative;
-            display: inline-block;
-            padding-bottom: 5px;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 
@@ -33,28 +35,8 @@ font-size: larger;
   border-bottom: 4px solid #FD749B;
   bottom: 0;
   left: 25%;
-  
+
 }
-/* .border-gradient:hover {
-  border-bottom:1px solid  #FD749B ;;
-  border-bottom-width: 3px;
- 
-
-} */
-
-/* .border-gradient::before{
-  content: '';
-  width: 90%;
-  background-color: #FD749B;
-  position: absolute;
-  right: 10px;
-  top:20px;
-  height: 2px;
-  border-radius: 2px;
-
-
-    
-} */
 
 
 
@@ -63,12 +45,15 @@ font-size: larger;
 
 
 
-.main-text{
-  font-family:'Poppins';
+
+
+.main-text {
+  font-family: 'Poppins';
   display: flex;
   margin-left: 30px;
 }
-.main-text > h3{
+
+.main-text>h3 {
   color: white;
   font-weight: 400;
   font-size: 40px;
@@ -80,10 +65,3 @@ font-size: larger;
   height: 200px;
 
 }
-
-
-
-
-
-
-

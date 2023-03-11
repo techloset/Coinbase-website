@@ -2,6 +2,10 @@ import React from 'react'
 import Footer from '../Landingpage/Footer'
 import Navbar from '../Landingpage/Navbar'
 import './Contact.css'
+import bg from '../../images/contactpage/BG.svg'
+import contact from '../../images/contactpage/contact.svg'
+import mapp from '../../images/contactpage/MapMap.svg'
+
 
 const Contact = () => {
   return (
@@ -9,7 +13,7 @@ const Contact = () => {
       <Navbar />
 
       <div className='md:justify-evenly  flex w-full  bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg1' style={{
-        backgroundImage: 'url("navimg/BG.png")'
+        backgroundImage: `url(${bg})`
       }}>
 
         <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
@@ -22,7 +26,7 @@ const Contact = () => {
 
         </div>
         <div className=''>
-          <img src="navimg/CONTACTIMG.png" alt="" className='mainImg1 ' />
+          <img src={contact} alt="" className='mainImg1 ' />
         </div>
       </div>
 
@@ -67,7 +71,7 @@ const Contact = () => {
       </section>
 
       <div className='flex justify-center items-center mb-20'>
-        <img src="navimg/Group 437.svg" alt="" />
+        <img src={mapp} alt="" />
       </div>
 
      
