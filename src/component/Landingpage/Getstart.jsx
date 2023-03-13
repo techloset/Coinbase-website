@@ -7,6 +7,9 @@ import Rates from '../../images/landingpage/rates.svg'
 import Bitcoin from '../../images/landingpage/bitcoin.svg'
 import Eth from '../../images/landingpage/Eth.svg'
 import Bankbuilding from '../../images/landingpage/bank-building.svg'
+import line from '../../images/landingpage/Line.svg'
+import transfer from '../../images/landingpage/Transfer.svg'
+import doubletransfer from '../../images/landingpage/Double-transfer.svg'
 
 
 
@@ -14,12 +17,12 @@ const Getstart = () => {
   return (
     < >
 
-      <div className='md:justify-evenly  flex w-full h-[1200px] bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
+      <div className='md:justify-evenly  flex  h-[750px] w-full bg-cover bg-center  max-md:items-center  max-md:flex-col-reverse bgImg' style={{
         backgroundImage: `url(${LandingBG})`,
       }}>
 
-        <div className='flex flex-col text-white ml-16  lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
-          <h6 className='font-poppins text-2xl  font-normal sm:text-4xl sm:leading-[2.6rem]'>We provide easy solution
+        <div className='flex flex-col text-white ml-4  lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-4 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
+          <h6 className='font-poppins text-xl  font-normal sm:text-4xl sm:leading-[2.6rem]'>We provide easy solution
             to exchange you <b className='tracking-wide sm:tracking-wide'>    Bitcoin / GiftCard for money </b></h6>
           <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
@@ -40,8 +43,8 @@ const Getstart = () => {
             <img alt="ecommerce" class="lg:w-1/2 mt-0" src={Layer} />
             <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 ">
               <h1 className="font-bold text-2xl sm:font-bold sm:text-3xl mb-3 sm:leading-10 bg-gradient-to-b from-[#FD749B] to-[#B254AB] text-transparent bg-clip-text">Welcome to CoinBase</h1>
-              {/* <img src="navimg/Line.png" alt="" /> */}
-              <p className="leading-5 sm:leading-10 text-sm mb-6 text-black">We have the best rates . Simply start your exchange right now. Sign up
+              <img src={line} alt="" />
+              <p className="leading-5 sm:leading-8  lg:h-[270px] text-sm  text-black">We have the best rates . Simply start your exchange right now. Sign up
                 for our Affiliate program and earn commission from each
                 exchange. The earnings are credited in your account instantly and
                 can be withdrawn right away. Also note some exchange directions
@@ -49,18 +52,16 @@ const Getstart = () => {
                 our exchange directions and benefits kindly sign up and verify your
                 identity.</p>
 
-              <div className="flex">
-                <button class="flex gap-16 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-2 px-6  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
-
-              </div>
+                <button class="flex max-lg:mt-7 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-2 px-6  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
+        
             </div>
           </div>
         </div>
       </section>
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
-      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[1550px] bg-no-repeat bg-cover flex justify-center items-center '>
-        <div className='w-[80%] sm:w-[50%] lg:w-[1050px] h-[340px]  shadow-xl scroll scroll rounded-3xl overflow-y-auto mt-36 bg-white '>
+      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[800px] bg-no-repeat bg-cover flex justify-center items-center '>
+        <div className='w-[80%] sm:w-[50%] lg:w-[1050px] h-[300px]  shadow-xl scroll scroll rounded-3xl overflow-y-auto mt-36 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
             <p  >OUR RATES</p>
             <p className='hidden lg:block'>OUR RESERVES</p>
@@ -143,16 +144,16 @@ const Getstart = () => {
               <div className='flex flex-col gap-3'>
 
                 <p className='flex items-center justify-start h-fit' >
-                  <p>Bitcoin BTC</p> <img src='navimg/Transfer.png' alt="" /> Bank
+                  <p>Bitcoin BTC</p> <img src={transfer} alt="" /> Bank
                 </p>
                 <p>
                   Transfer NGN</p>
               </div>
 
-              <p className='flex items-center justify-start gap-2 border-b-2'><p className='whitespace-nowrap'><b>1.16</b> BTC</p> <img src='navimg/Double transfer.png' alt="" /> <p className='lg:whitespace-nowrap' ><b>696152299929.23</b> NGN</p> </p>
+              <p className='flex items-center justify-start gap-2 border-b-2'><p className='whitespace-nowrap'><b>1.16</b> BTC</p> <img src={doubletransfer} alt="" /> <p className='lg:whitespace-nowrap' ><b>696152299929.23</b> NGN</p> </p>
               <p className='flex flex-col items-center justify-start h-fit '>
                 <div className='flex flex-row items-center justify-start h-fit'>
-                  Amazon Card <img className='' src='' alt="" />     Bank
+                  Amazon Card <img className='' src={transfer} alt="" />     Bank
                 </div>
                 <p>Transfer NGN</p>
               </p>

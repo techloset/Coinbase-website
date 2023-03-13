@@ -3,6 +3,7 @@ import experience from '../../images/landingpage/Ñëîé.svg'
 import Trade from '../../images/landingpage/trade.svg'
 import BitcoinCards from '../../images/landingpage/Bitcoincards.svg'
 import GiftCards from '../../images/landingpage/Giftcards.svg'
+import line from '../../images/landingpage/Line.svg'
 
 
 const Experience = () => {
@@ -10,13 +11,13 @@ const Experience = () => {
     <div>
 
       <section className="text-gray-600">
-        <div className="container px-5 md:px-20 py-10  mx-auto">
+        <div className="container px-5 md:px-20 py-5  mx-auto">
           <div className="lg:w-full mx-auto  flex flex-row max-lg:flex max-lg:flex-col-reverse">
             <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 leading-10">
               <h1 className="font-bold text-2xl sm:font-bold sm:text-2xl mb-3 leading-10 bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent bg-clip-text">Great experience <br />
                 with CoinBase</h1>
-              {/* <img src="navimg/Line.png" alt="" /> */}
-              <p className="leading-5 sm:leading-10 mb-6 w-[89%]">CoinBase is an online site and a
+              <img src={line} alt="" />
+              <p className="leading-5 sm:leading-10 mb-6 w-[80%] sm:w-[530px]">CoinBase is an online site and a
                 p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely.
                 Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
               </p>
@@ -46,15 +47,15 @@ const Experience = () => {
               Trade from anywhere
             </h4>
           </div>
-          {/* <img src="navimg/Line.png" alt="" class="mx-auto my-auto mt-4" style={{ width: '50px', heigth: '0px', alignItems: 'center', justifyContent: 'center' }} /> */}
+          <img src={line} alt="" class="mx-auto my-auto mt-4"  />
           <div className='sm:flex sm:flex-row sm:justify-center   sm:mt-16 sm:align-baseline gap-7 sm:gap-14 flex flex-col justify-center items-center mt-5'>
 
-            <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px]    w-[100px] h-[70px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
+            <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px]    w-[140px] h-[80px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
               <img src={BitcoinCards} alt="" width='40px' height='40px' />
               <p className='font-bold text-md'>Bitcoin</p>
             </div>
 
-            <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px] w-[100px] h-[70px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
+            <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px] w-[140px] h-[80px]  gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>
               <img src={GiftCards} alt="" width='40px' height='40px' />
               <p className='font-bold text-md'>Gift Cards</p>
             </div>

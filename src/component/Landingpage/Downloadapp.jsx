@@ -3,6 +3,7 @@ import store from '../../images/landingpage/Store.svg'
 import xphone from '../../images/landingpage/Xphone.svg'
 import yphone from '../../images/landingpage/Yphone.svg'
 import AppBG from '../../images/landingpage/appbg.svg'
+import line from '../../images/landingpage/Line.svg'
 
 const Downloadapp = () => {
     return (
@@ -12,6 +13,8 @@ const Downloadapp = () => {
                     <h1 className="font-poppins font-bold text-2xl 
                            leading-14 bg-gradient-to-b from-[#D463A4] to-[#BB58A9]
                           text-transparent bg-clip-text">Download our app</h1>
+                    <img src={line} alt="" />
+
                     <p className=" text-sm md:w-[27%] font-normal tracking-wide leading-7">Discover exclusive deals and discounts with
                         our mobile experience.</p>
                         <img src={store} alt="Store" />
@@ -19,10 +22,10 @@ const Downloadapp = () => {
            
             <div className='flex justify-center flex-row  relative  h-[657px] w-[100%] bg-no-repeat bg-cover' style={{ backgroundImage: `url(${AppBG})` }}>
 
-                <div className='sm:w-60 sm:h-[50%] top-72 h-[30%] w-[30%] right-[55%]  absolute'>
+                <div className='sm:w-60 sm:h-[50%] top-72 h-[30%] w-[30%] right-[52%]  absolute'>
                     <img src={xphone} alt="Image 1" class=" object-cover" />
                 </div>
-                <div className='sm:w-60 sm:[50%] top-72 h-[30%] w-[30%] left-[50%] absolute'>
+                <div className='sm:w-60 sm:[50%] top-72 h-[30%] w-[30%] left-[52%] absolute'>
                     <img src={yphone}  alt="Image 1" class=" object-cover" />
                 </div>
             </div>
@@ -34,7 +37,7 @@ const Downloadapp = () => {
                           leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                                 text-transparent bg-clip-text">Subscribe our newsletter
                     </h1>
-                    {/* <img src="navimg/Line.png" alt="" class="mx-auto my-auto mt-4" style={{ width: '50px', heigth: '0px', alignItems: 'center', justifyContent: 'center' }} /> */}
+                    <img src={line} alt="" />
                     <p className="mt-4 text-base md:w-[60%] font-normal text-black  leading-10">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
                     <div className="flex w-full justify-center mt-11 items-end ">
                         <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
