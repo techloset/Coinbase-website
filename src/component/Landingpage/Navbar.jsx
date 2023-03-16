@@ -30,9 +30,7 @@ const Navbar = () => {
         <ol className='flex justify-center 
         pt-6 font-poppins font-bold w-[50%] text-center xl:gap-8 max-xl:gap-6 max-lg:hidden'>
           <li className={`${path == '/' ? 'border-b-4 border-[#FD749B]  h-fit':'line'} `}>
-            <li> <Link to='/'> Home </Link></li> 
-</li>
-          
+            <li> <Link to='/'> Home </Link></li> </li>   
            <li className={` ${path == '/about'? 'border-b-4 border-[#FD749B] h-fit':'line'} `}>
           <li >  <Link to='/about'> About Us</Link></li>
            </li><li className={` ${path == '/blog'? 'border-b-4 border-[#FD749B] h-fit' :'line'} `}>
