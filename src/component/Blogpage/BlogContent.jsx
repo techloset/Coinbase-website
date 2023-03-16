@@ -121,12 +121,12 @@ const BlogContent = () => {
 
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-start  w-full mb-12">
+          <div className="flex flex-col text-start  w-full mb-12 ">
             <h1 className="sm:text-3xl text-xl font-bold pl-0 sm:pl-52 title-font mb-4 text-gray-900">Leave A Comment</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Your email address will not be published. Required fields are marked *</p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <div className="flex flex-wrap -m-2">
+            <div className="flex flex-wrap ">
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-10 text-sm text-gray-600">Name</label>
@@ -147,7 +147,7 @@ const BlogContent = () => {
               </div>
               <div className="p-2 w-full">
                 <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-full text-lg"
-                  style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
+                  style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>PUBLISH</button>
               </div>
 
             </div>

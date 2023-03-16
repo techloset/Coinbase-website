@@ -118,12 +118,12 @@ const About = () => {
         <div className="h-[185px]  w-[299px] top-[20%] left-[15%]   z-10 bg-[#C4C4C4] shadow-lg  rounded-xl absolute hidden sm:block">
         </div>
 
-        <div className="h-[233px]  w-[299px] top-[10%] left-[28%]  z-10 bg-[#C4C4C4]   shadow-lg    rounded-xl   absolute">
+        <div className="h-[233px]  w-[299px] top-[10%] left-[28%]  z-10 bg-[#C4C4C4]   shadow-lg    rounded-xl   absolute hidden sm:block">
         </div>
         <div className="h-[185px]  w-[299px] top-[20%] right-[15%]  z-10 bg-[#C4C4C4] shadow-lg  rounded-xl absolute hidden sm:block">
         </div>
 
-        <div className="h-[233px]  w-[299px] right-[28%] top-[10%]   z-10   bg-[#C4C4C4]  shadow-lg   rounded-xl  absolute ">
+        <div className="h-[233px]  w-[299px] right-[28%] top-[10%]   z-10   bg-[#C4C4C4]  shadow-lg   rounded-xl  absolute hidden sm:block">
         </div>
 
         <div className="flex   w-full justify-center items-center ">
@@ -139,19 +139,18 @@ const About = () => {
       </section>
 
 
+
       <div className="flex justify-center  items-center   bg-no-repeat  bg-cover h-[50%] md:bg-center"  >
-        <div className="flex flex-col justify-center items-center text-center  max-w-7xl pt-28 pb-20 px-10">
-          <h1 className="font-poppins font-bold text-2xl 
+        <div className="flex flex-col justify-center items-center text-center  max-w-7xl pt-56 pb-20 px-10">
+          <h1 className="font-poppins font-bold text-[1.7rem] 
                           leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                                 text-transparent bg-clip-text">Subscribe our newsletter
           </h1>
           <img src={line} alt="" />
-          <p className="mt-4 text-sm md:w-[60%] tracking-wide leading-7">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
-          <div className="flex w-full justify-center mt-11 items-end ">
-            <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
-              <input type="text" id="hero-field" placeholder='EMAIL' name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded-full  focus:bg-transparent border border-fuchsia-800   text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-            </div>
-            <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-full text-lg"
+          <p className="mt-4 text-base md:w-[60%] font-normal text-black  leading-10">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
+          <div className="sm:flex sm:flex-row gap-4 w-full sm:justify-center mt-11 sm:items-center flex flex-col justify-center items-center">
+            <input type="text" id="hero-field" placeholder='EMAIL' name="hero-field" class="sm:w-[60%] w-[75%] text-black bg-gray-100 bg-opacity-50 rounded-full  focus:bg-transparent border border-fuchsia-800    outline-none font-normal text-sm py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <button className="inline-flex text-white border-0 py-2 px-4 h-fit w-fit focus:outline-none rounded-full text-sm sm:text-lg"
 
               style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}
 

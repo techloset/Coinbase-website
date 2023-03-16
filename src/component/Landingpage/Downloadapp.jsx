@@ -39,11 +39,9 @@ const Downloadapp = () => {
                     </h1>
                     <img src={line} alt="" />
                     <p className="mt-4 text-base md:w-[60%] font-normal text-black  leading-10">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
-                    <div className="flex w-full justify-center mt-11 items-end ">
-                        <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
-                            <input type="text" id="hero-field" placeholder='EMAIL' name="hero-field" class="w-full text-black bg-gray-100 bg-opacity-50 rounded-full  focus:bg-transparent border border-fuchsia-800    outline-none font-normal text-sm py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                        </div>
-                        <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-full text-lg"
+                    <div className="sm:flex sm:flex-row gap-4 w-full sm:justify-center mt-11 sm:items-center flex flex-col justify-center items-center">
+                            <input type="text" id="hero-field" placeholder='EMAIL' name="hero-field" class="sm:w-[60%] w-[75%] text-black bg-gray-100 bg-opacity-50 rounded-full  focus:bg-transparent border border-fuchsia-800    outline-none font-normal text-sm py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        <button className="inline-flex text-white border-0 py-2 px-4 h-fit w-fit focus:outline-none rounded-full text-sm sm:text-lg"
 
                             style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}
 

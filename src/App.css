@@ -19,7 +19,8 @@ body {
   /* bottom: 15%; */
   width: 0%;
   height: 4px;
-  background-color: black;
+  background-color: #FD749B;;
+  /* color: rgb(253, 116, 155); */
   transition: width 0.7s ease-in-out;
 }
 
