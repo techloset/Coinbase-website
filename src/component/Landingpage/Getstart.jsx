@@ -61,7 +61,7 @@ const Getstart = () => {
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
       <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[780px] bg-no-repeat bg-cover flex justify-center items-center '>
-        <div className='w-[80%] sm:w-[50%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-36 bg-white '>
+        <div className='w-[80%] sm:w-[50%] sm:h-[43%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-36 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
             <p >OUR RATES</p>
             <p className='hidden lg:block'>OUR RESERVES</p>

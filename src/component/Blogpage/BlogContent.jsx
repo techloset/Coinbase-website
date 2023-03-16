@@ -103,7 +103,7 @@ const BlogContent = () => {
             </div>
           </div>
 
-          <div className='sm:flex sm:justify-between flex flex-col gap-2 '>
+          <div className='flex sm:justify-between sm:flex-row   flex-col gap-2 '>
             <div>
 
               <h1 className='font-Poppins font-bold text-md text-start'>How to sell your <br /> iTunes giftcard with us</h1>
