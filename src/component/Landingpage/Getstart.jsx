@@ -26,7 +26,7 @@ const Getstart = () => {
             to exchange you <b className='tracking-wide sm:tracking-wide'>    Bitcoin / GiftCard for money </b></h6>
           <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
-          <button className='bg-white font-bold rounded-full self-start w-[157px] h-[54px]  font-poppins cursor-pointer text-sm' >
+          <button className='bg-white font-bold rounded-full self-start w-[157px] h-[40px]  font-poppins cursor-pointer text-sm ' >
             <span className="bg-gradient-to-b from-[#C35B95] to-[#B254AB]" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GET STARTED</span>
           </button>
         </div>
@@ -41,10 +41,10 @@ const Getstart = () => {
         <div className="container px-5 md:px-12  mx-auto">
           <div className="lg:w-full mx-auto  flex flex-row max-lg:flex max-lg:flex-col">
             <img alt="ecommerce" class="lg:w-1/2 mt-0" src={Layer} />
-            <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 ">
+            <div className=" w-full lg:pl-10 lg:py-4  ">
               <h1 className="font-bold text-2xl sm:font-bold sm:text-3xl mb-3 sm:leading-10 bg-gradient-to-b from-[#FD749B] to-[#B254AB] text-transparent bg-clip-text">Welcome to CoinBase</h1>
               <img src={line} alt="" />
-              <p className="leading-5 sm:leading-8  lg:h-[270px] text-sm  text-black">We have the best rates . Simply start your exchange right now. Sign up
+              <p className="leading-5 sm:leading-8 w-[85%]  py-5 text-sm  text-black">We have the best rates . Simply start your exchange right now. Sign up
                 for our Affiliate program and earn commission from each
                 exchange. The earnings are credited in your account instantly and
                 can be withdrawn right away. Also note some exchange directions
@@ -52,26 +52,26 @@ const Getstart = () => {
                 our exchange directions and benefits kindly sign up and verify your
                 identity.</p>
 
-                <button class="flex max-lg:mt-7 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-2 px-6  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
-        
+              <button class="flex max-lg:mt-7 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-2 px-6  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
+
             </div>
           </div>
         </div>
       </section>
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
-      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[800px] bg-no-repeat bg-cover flex justify-center items-center '>
-        <div className='w-[80%] sm:w-[50%] lg:w-[1050px] h-[300px]  shadow-xl scroll scroll rounded-3xl overflow-y-auto mt-36 bg-white '>
+      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center h-[780px] bg-no-repeat bg-cover flex justify-center items-center '>
+        <div className='w-[80%] sm:w-[50%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-36 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
-            <p  >OUR RATES</p>
+            <p >OUR RATES</p>
             <p className='hidden lg:block'>OUR RESERVES</p>
             <p className='hidden lg:block'>LATEST EXCHANGES</p>
 
           </div>
-          <div className='flex flex-col lg:flex-row justify-center gap-12 items-center  '>
+          <div className='flex flex-col lg:flex-row justify-evenly gap-12 items-center  '>
 
             <div className='flex flex-col gap-10  '>
-              <div className='flex gap-5 mt-7' >
+              <div className='flex gap-7 mt-6' >
 
                 <p className='flex items-center justify-center gap-3 h-fit'>
                   <img src={Bitcoin} alt="" /></p>
@@ -79,7 +79,7 @@ const Getstart = () => {
                 <div>
 
                   <p>We Buy @ <b>  ₦350/$ </b></p>
-                  <p>We Sell <b>@ ₦370/$ </b></p>
+                  <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ const Getstart = () => {
                 <div>
 
                   <p>We Buy @ <b>  ₦350/$ </b></p>
-                  <p>We Sell <b>@ ₦370/$ </b></p>
+                  <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Getstart = () => {
 
                 <p className='flex flex-row gap-10 h-fit'>
                   <div className='flex items-center justify-center gap-2 h-fit '>
-                    <img src={Bankbuilding}   alt="" />
+                    <img src={Bankbuilding} alt="" />
                     Bank Transfer
                   </div> <p>NGN</p>  </p>
                 <p className='self-end'> <b>#3452030300303.24/$ </b> </p>
@@ -129,7 +129,7 @@ const Getstart = () => {
 
               <p className='flex gap-10 h-fit'>
                 <div
-                  className='flex items-center justify-center gap-2 h-fit'        >
+                  className='flex items-center justify-center gap-4 h-fit'        >
                   <img src={Eth} alt="" />
                   Ethereum
                 </div>
@@ -139,19 +139,25 @@ const Getstart = () => {
             </div>
             <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>LATEST EXCHANGES</p>
 
-            <div className='flex flex-col gap-2 lg:mt-5'>
-              <button className='self-end p-1 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
-              <div className='flex flex-col gap-3'>
-
-                <p className='flex items-center justify-start h-fit' >
+            <div className='flex flex-col gap-2 lg:mb-6'>
+              <button className='self-center w-[80px] h-[20px] px-1 mt-3 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
+              <div className='flex flex-col  '>
+                <p className='flex items-center justify-start h-fit text-[14px]' >
                   <p>Bitcoin BTC</p> <img src={transfer} alt="" /> Bank
                 </p>
                 <p>
                   Transfer NGN</p>
               </div>
+<div className='py-2'>
 
-              <p className='flex items-center justify-start gap-2 border-b-2'><p className='whitespace-nowrap'><b>1.16</b> BTC</p> <img src={doubletransfer} alt="" /> <p className='lg:whitespace-nowrap' ><b>696152299929.23</b> NGN</p> </p>
-              <p className='flex flex-col items-center justify-start h-fit '>
+              <p className='flex items-center justify-start gap-2 border-b-2'>
+                <p className='whitespace-nowrap'><b>1.16</b> BTC</p>
+                <img src={doubletransfer} alt="" />
+                <p className='lg:whitespace-nowrap' ><b>696152299929.23</b>
+                  NGN</p>
+              </p>
+</div>
+              <p className='flex flex-col items-start text-[14px] justify-start h-fit '>
                 <div className='flex flex-row items-center justify-start h-fit'>
                   Amazon Card <img className='' src={transfer} alt="" />     Bank
                 </div>
