@@ -1,7 +1,6 @@
 import React from 'react'
-import Getstart from '../Landingpage/Getstart'
-import Navbar from '../Landingpage/Navbar'
 import Footer from '../Landingpage/Footer'
+import Navbar from '../Landingpage/Navbar'
 import bg from '../../images/aboutpage/BG.svg'
 import img from '../../images/aboutpage/IMG.svg'
 import aboutimg from '../../images/aboutpage/imgabout.svg'
@@ -114,7 +113,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className=" relative flex flex-wrap 3xl:3xl:w-1/3 ">
+      <section className=" relative flex flex-wrap 3xl:w-1/3 ">
         <div className="h-[185px]  w-[299px] top-[20%] left-[15%]   z-10 bg-[#C4C4C4] shadow-lg  rounded-xl absolute hidden sm:block">
         </div>
 

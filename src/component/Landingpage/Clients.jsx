@@ -6,7 +6,7 @@ import Testimonials from '../../images/landingpage/testimonial.svg'
 const Clients = () => {
     return (
         <div>
-            <div className='bg-center flex flex-col justify-center relative bg-cover w-[100%] h-[1500px] bg-no-repeat'
+            <div className='bg-center mt-[-10px] flex flex-col justify-center relative bg-cover w-[100%] h-[1500px] bg-no-repeat'
                 style={{  backgroundImage: `url(${ourClients})`}}>
                 <div className="flex flex-col justify-center items-center mt-[6rem] text-center  ">
                     <h1 class="sm:text-3xl text-xl  font-medium title-font text-white">10,000 Satisfied clients

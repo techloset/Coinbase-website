@@ -9,7 +9,7 @@ const Downloadapp = () => {
     return (
         <>
             
-                <div className="flex flex-col justify-center items-center text-center space-y-6">
+                <div className="flex flex-col justify-center  items-center text-center space-y-6">
                     <h1 className="font-poppins font-bold text-2xl 
                            leading-14 bg-gradient-to-b from-[#D463A4] to-[#BB58A9]
                           text-transparent bg-clip-text">Download our app</h1>
