@@ -21,9 +21,9 @@ const About = () => {
         <div className='flex flex-col text-white   lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-5 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
           <p className='text-xs font-normal'>HOME/ABOUT US</p>
 
-          <h6 className='font-poppins text-3xl  font-bold sm:text-4xl sm:leading-[2.6rem]'>Great service,
+          <h6 className='font-poppins text-3xl  font-bold sm:text-[40px] sm:leading-[60px]'>Great service, <br />
             Professional support</h6>
-          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
+          <p className='text-xs sm:text-lg font-normal'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
 
         </div>
@@ -32,14 +32,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center  items-center w-[70%]  md:w-[512px] gap-5 h-15 sm:h-48 leading-7 mt-0 sm:leading-10 max-lg:h-[80%] mx-auto'>
+      <div className='flex flex-col justify-center  items-center w-[70%]  md:w-[480px] gap-5 h-15 sm:h-48 leading-10 mt-0 sm:leading-10 max-lg:h-[80%] mx-auto'>
         <p className='bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent 
         bg-clip-text cursor-pointer font-bold  pt-0 text-lg text-center'
         >
           “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
           Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
         <img src={line} alt="" />
-        <p className='text-sm'>Ramon Ridwan • CEO CoinBase</p>
+        <p className='text-sm leading-[25px]'>Ramon Ridwan • CEO CoinBase</p>
       </div>
 
 
@@ -131,7 +131,7 @@ const About = () => {
                    text-transparent  rounded-xl  "   >
             <div className='relative w-[70%] h-[100%]'>
 
-              <p className='text-white  items-end text-center absolute bottom-0 left-4 p-4'>CEO Amanda Roth</p>
+              <p className='text-white  items-end text-start absolute bottom-0 left-4 p-4'>CEO <br /> Amanda Roth</p>
             </div>
           </div>
         </div>

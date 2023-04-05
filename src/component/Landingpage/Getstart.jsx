@@ -26,7 +26,7 @@ const Getstart = () => {
             to exchange you <b className='tracking-wide sm:tracking-wide'>    Bitcoin / GiftCard for money </b></h6>
           <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
-          <button className='bg-white font-bold rounded-full self-start w-[157px] h-[40px]  font-poppins cursor-pointer text-sm ' >
+          <button className='bg-white font-bold rounded-full self-start py-[17px] px-[32px]  font-poppins cursor-pointer text-sm ' >
             <span className="bg-gradient-to-b from-[#C35B95] to-[#B254AB]" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GET STARTED</span>
           </button>
         </div>
@@ -61,7 +61,7 @@ const Getstart = () => {
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
       <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center mt-[-100px] h-[900px] bg-no-repeat bg-cover flex justify-center items-center '>
-        <div className='w-[80%] sm:w-[50%] sm:h-[43%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-36 bg-white '>
+        <div className='w-[80%] sm:w-[50%] sm:h-[43%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-44 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
             <p >OUR RATES</p>
             <p className='hidden lg:block'>OUR RESERVES</p>

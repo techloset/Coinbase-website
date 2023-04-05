@@ -21,14 +21,14 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='flex  justify-evenly max-w-[100%]  mt-[3.6rem] mb-[3.2rem]'>
-        <div className='max-lg:flex max-lg:flex-row max-lg:items-center max-lg:gap-44 max-md:gap-24 '>
-          <button className='lg:hidden max-lg:pt-4'> <Hamburger easing="ease-in" onToggle={clickMe} color='gray' size={30} direction='left' toggled={isOpen} toggle={setIsOpen} /></button>
-          <Link to='/'> <img src={NavLogo} alt="" className='pt-4  max-sm:hidden' /> </Link>
+      <nav className='flex  justify-evenly max-w-[100%] max-md:mb-[1.3rem]  md:mb-[2.8rem]'>
+        <div className=' md:mt-[52px] max-lg:flex max-lg:flex-row max-lg:items-center max-lg:gap-44 max-md:gap-24 '>
+          <button className='lg:hidden max-lg:pt-'> <Hamburger easing="ease-in" onToggle={clickMe} color='gray' size={30} direction='left' toggled={isOpen} toggle={setIsOpen} /></button>
+          <Link to='/'> <img src={NavLogo} alt="" className='  max-sm:hidden' /> </Link>
         </div>
 
-        <ol className='flex justify-center 
-        pt-6 font-poppins font-bold w-[50%] text-center xl:gap-8 max-xl:gap-6 max-lg:hidden'>
+        <ol className='flex justify-center max-md:mt-[20px] md:mt-[57px] leading-5 
+         font-poppins font-bold w-[50%] text-center xl:gap-8 max-xl:gap-6 max-lg:hidden'>
           <li className={`${path == '/' ? 'border-b-4 border-[#FD749B]  h-fit':'line'} `}>
             <li className='text-[#333333] text-[14px] font-bold '> <Link to='/'> Home </Link></li> </li>   
            <li className={` ${path == '/about'? ' border-b-4 border-[#FD749B] h-fit':'line'} `}>
@@ -46,11 +46,11 @@ const Navbar = () => {
            </li>
 
         </ol>
-        <div className='flex justify-center mt-[0.5rem] gap-5 '>
+        <div className='flex justify-center  gap-5 '>
           <button id="dropdownOffsetButton"  onClick={dropDown}
           data-dropdown-toggle="dropdownOffset" 
           data-dropdown-offset-distance="10" data-dropdown-offset-skidding="100" 
-          data-dropdown-placement="right" className="text-[#333333] text-[14px]  max-sm:hidden h-fit mt-[15px] 
+          data-dropdown-placement="right" className="text-[#333333] text-[14px]  max-sm:hidden h-fit max-md:mt-[20px] md:mt-[70px] lg:mt-[58px]
             focus:ring-blue-300 font-bold
           text-md  text-center inline-flex items-center 
             "
@@ -58,7 +58,7 @@ const Navbar = () => {
               </button>
              
           {/* <!-- Dropdown menu --> */}
-          <div id="dropdownOffset" class={`z-10 mt-[60px] ml-12 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open? 'block':'hidden'}   `}>
+          <div id="dropdownOffset" class={`z-10 max-md:mt-[68px] md:mt-[100px] lg:mt-[90px] ml-12 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open? 'block':'hidden'}   `}>
             <ul className=" text-sm  text-black dark:text-gray-200" aria-labelledby="dropdownDefault">
               <li>
                 <a href="#" className="block px-4 py-2 text-[#333333] text-[12px] hover:bg-white ">Sell Bitcoin</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
 
           <button
-            className="lg:py-[17px] lg:px-[56px] py-[8px] px-[24px]   text-[#FFFFFF] font-poppins font-bold cursor-pointer rounded-full lg:text-[14px] max-lg:text-base"
+            className="lg:py-[17px] lg:px-[56px]  px-[36px] max-md:mt-[10px] md:mt-[60px] lg:mt-[37px]  text-[#FFFFFF] font-poppins font-bold cursor-pointer rounded-full lg:text-[14px] max-lg:text-base"
             style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}
           >
             LOGIN

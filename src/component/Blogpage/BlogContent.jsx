@@ -3,7 +3,7 @@ import Footer from '../Landingpage/Footer'
 import Navbar from '../Landingpage/Navbar'
 import bg from '../../images/blogcontent/BG.svg'
 import ReferenceIMG from '../../images/blogcontent/Reference_IMG.svg'
-import SocialIcons from '../../images/blogcontent/Social_Icons.svg'
+import SocialIcons from '../../images/blogcontent/share_post.png'
 
 const BlogContent = () => {
   return (
@@ -23,7 +23,7 @@ const BlogContent = () => {
       </div>
 
       <div class="flex justify-center items-center">
-        <div class="my-container text-center w-[75%] sm:w-[50%] text-gray-600">
+        <div class="container text-center w-[75%] sm:w-[50%] text-gray-600">
           <p className='sm:leading-7  font-normal text-sm text-justify '>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
           </p>
@@ -52,8 +52,8 @@ const BlogContent = () => {
 
           <section class="text-gray-600 ">
             <div class="container py-5  sm:py-20 mx-auto flex flex-wrap">
-              
-              <div class="flex flex-col flex-wrap lg:py-6  lg:w-[60%] lg:text-left  text-center">
+
+              <div class="flex flex-col flex-wrap lg:w-[50%]  xl:w-[40%] lg:text-left  text-center">
                 <div class="flex flex-col mb-5 sm:mb-10 lg:items-start items-center">
 
                   <div class="flex-grow">
@@ -74,7 +74,7 @@ const BlogContent = () => {
                   </div>
                 </div>
               </div>
-              <div class="lg:w-[39%] w-full mb- sm:mb-10 lg:mb-0 rounded-lg overflow-hidden">
+              <div class="xl:w-[50%] lg:w-[50%] xl:ml-[67px] xl:my-[19px]  rounded-lg overflow-hidden">
                 <img alt="feature" class="object-cover object-center w-[486px] h-[486px]" src={ReferenceIMG} />
               </div>
             </div>
@@ -95,12 +95,10 @@ const BlogContent = () => {
           <br />
 
 
-          <div className='lg:flex lg:flex-row lg:justify-between my-9 flex flex-col gap-3'>
-            <h1 className='font-Poppins font-bold text-sm text-left'>Tags: Business, Capital, Finance</h1>
-            <div className='flex flex-row gap-7 mb-3'>
-              <p className='pt-2'>Share with</p>
-              <img src={SocialIcons} alt="" />
-            </div>
+          <div className='lg:flex lg:flex-row lg:justify-between w-[110%] my-9 flex flex-col gap-3'>
+            <h1 className='font-Poppins font-bold text-[16px] text-[#333333] text-left'>Tags: Business, Capital, Finance</h1>
+            <img src={SocialIcons} alt="" className='' />
+
           </div>
 
           <div className='flex sm:justify-between sm:flex-row   flex-col gap-2 '>
@@ -115,45 +113,39 @@ const BlogContent = () => {
               <p className='font-Poppins leading-10 text-xs text-start sm:text-end'>Next Post</p>
             </div>
           </div>
-
+          
         </div>
       </div>
 
-      <section className="text-gray-600 body-font relative">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-start  w-full mb-12 ">
-            <h1 className="sm:text-3xl text-xl font-bold pl-0 sm:pl-52 title-font mb-4 text-gray-900">Leave A Comment</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Your email address will not be published. Required fields are marked *</p>
-          </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <div className="flex flex-wrap ">
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <label for="name" className="leading-10 text-sm text-gray-600">Name</label>
-                  <input type="text" id="name" name="name" placeholder='Name *' className="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out " />
-                </div>
-              </div>
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <label for="email" className="leading-10 text-sm text-gray-600">Email</label>
-                  <input type="email" id="email" placeholder='Email *' name="email" className="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                </div>
-              </div>
-              <div className="p-2 w-full">
-                <div className="relative">
-                  <label for="message" className="leading-7 text-sm text-gray-600">Message</label>
-                  <textarea id="message" name="message" placeholder='Your Comment' className="w-full bg-white bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" ></textarea>
-                </div>
-              </div>
-              <div className="p-2 w-full">
-                <button className="inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded-full text-lg"
-                  style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>PUBLISH</button>
+      <div className='flex w-full flex-col  justify-center items-center gap-10'>
+
+            <div className='sm:w-[50%] w-[70%] '>
+
+              <p className='text-[24px] font-bold'>Leave A Comment</p>
+              <p>Your email address will not be published. Required fields are marked *</p>
+            </div>
+            <form action="" className='flex flex-col items-center justify-center sm:w-[50%] w-[70%] gap-10'>
+              <div className='w-full flex gap-5 md:gap-[4%] flex-col md:flex-row   '>
+
+                <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[50%] h-[60px]  border-[1px] focus:outline-none border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Name *' name="" id="" />
+                <input type="text" className='rounded-md p-[20px] w-[80%] md:w-[50%] h-[60px]  border-[1px] focus:outline-none border-[#D1D1D1] placeholder:text-[#2F2F2F]' placeholder='Email *' name="" id="" />
               </div>
 
-            </div>
+
+              <textarea placeholder='Your Comment' name="" id="" className='placeholder:text-[#2F2F2F] self-start p-[20px] focus:outline-none box-border rounded-md w-[80%] md:w-full h-[190px]  border-[1px] border-[#D1D1D1] resize-none'></textarea>
+              <div className='w-full flex'>
+
+                <button className="self-start text-[14px]  mt-[20px] mb-[60px] font-bold text-white  w-[157px] h-[54px] rounded-full" style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>
+                  PUBLISH
+                </button>
+              </div>
+            </form>
+
           </div>
-        </div>
-      </section>
+
+
+
+
       <Footer />
 
 

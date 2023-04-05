@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="container px-5 md:px-20 py-5  mx-auto">
           <div className="lg:w-full mx-auto  flex flex-row max-lg:flex max-lg:flex-col-reverse">
             <div className=" w-full lg:pl-10 lg:py-6  lg:mt-0 leading-10">
-              <h1 className="font-bold text-2xl sm:font-bold sm:text-2xl mb-3 leading-10 bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent bg-clip-text">Great experience <br />
+              <h1 className="font-bold text-2xl sm:font-bold sm:text-[28px] mb-3 leading-10 bg-gradient-to-b from-[#FD749B] to-[#281AC8] text-transparent bg-clip-text">Great experience <br />
                 with CoinBase</h1>
               <img src={line} alt="" />
               <p className="leading-5 sm:leading-10 py-6 w-[80%] sm:w-[530px]">CoinBase is an online site and a
@@ -23,7 +23,7 @@ const Experience = () => {
               </p>
 
               <div className="flex">
-                <button class="flex gap-16 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-2 px-6  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
+                <button class="flex gap-16 text-white font-poppins cursor-pointer rounded-full text-lg  border-0 py-[17px] px-[32px]  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>DISCOVER</button>
               </div>
             </div>
             <img alt="ecommerce" class="lg:w-1/2 mt-0" src={experience} />
@@ -41,8 +41,8 @@ const Experience = () => {
       <div className='bg-center mt-3 sm:mt-16 flex justify-center items-center ' style={{ height: '550px', backgroundImage: `url(${Trade})`, backgroundSize: "cover" }} >
         <div className=' bg-white  sm:mt-32 lg:w-[980px] lg:h-[504px] md:w-[700px] md:h-[450px]  sm:w-[500px] sm:h-[350px] w-[300px] h-[370px] shadow-lg rounded-2xl  '>
           <div className='flex text-center justify-center mt-10'>
-            <h4 className="font-poppins font-bold sm:text-2xl text-lg
-                 leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+            <h4 className="font-poppins font-bold sm:text-[28px] text-lg
+                 leading-[42px] bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text">
               Trade from anywhere
             </h4>
