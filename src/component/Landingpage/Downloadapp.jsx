@@ -20,7 +20,7 @@ const Downloadapp = () => {
 
 
             <div className="flex justify-center  items-center   bg-no-repeat  bg-cover h-[50%] md:bg-center"  >
-                <div className="flex flex-col justify-center items-center text-center  max-w-7xl pt-56 pb-20 px-10">
+                <div className="flex flex-col justify-center items-center text-center  max-w-7xl pt-14 sm:pt-40 pb-20 px-10">
                     <h1 className="font-poppins font-bold text-[1.8rem] 
                           leading-[65px] bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                                 text-transparent bg-clip-text">Subscribe our newsletter

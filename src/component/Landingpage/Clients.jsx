@@ -19,7 +19,7 @@ const Clients = () => {
                  <img src={Testimonials} alt="" />
                 </div>
 
-                <div className="flex flex-col justify-center z-20 absolute bottom-[-10%]  left-[35%] items-center text-center space-y-6">
+                <div className="flex flex-col justify-center z-20 absolute bottom-[-10%] left-[8%] sm:left-[20%] lg:left-[30%] xl:left-[35%] items-center text-center space-y-6">
                     <h1 className="font-poppins font-bold text-[28px] 
                            leading-[65px] bg-gradient-to-b from-[#D463A4] to-[#BB58A9]
                           text-transparent bg-clip-text">Download our app</h1>
