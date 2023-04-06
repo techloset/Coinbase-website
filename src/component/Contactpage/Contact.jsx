@@ -31,12 +31,12 @@ const Contact = () => {
       </div>
 
       <section className="text-gray-600 body-font relative">
-        <div className="container px-5 py-20 mx-auto">
-          <div className="flex flex-col text-center  w-full mb-12">
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Your email address will not be published. Required fields are marked *</p>
+        <div className=" pb-20 ">
+          <div className="flex flex-col text-center  mb-12">
+            <p className=" leading-relaxed text-base">Your email address will not be published. Required fields are marked *</p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <div className="flex flex-wrap -m-2">
+          <div className="flex justify-center items-center w-full">
+            <div className="flex flex-wrap w-[50%]">
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-10 text-sm text-gray-600">Name</label>

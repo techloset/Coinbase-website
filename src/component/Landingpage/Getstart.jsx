@@ -24,7 +24,7 @@ const Getstart = () => {
         <div className='flex flex-col text-white ml-4  lg:pt-36  max-lg:pt-32 max-md:pt-0 gap-4 sm:gap-3 md:gap-6 px-8 sm:w-[540px] ' >
           <h6 className='font-poppins text-xl  font-normal sm:text-4xl sm:leading-[2.6rem]'>We provide easy solution
             to exchange you <b className='tracking-wide sm:tracking-wide'>    Bitcoin / GiftCard for money </b></h6>
-          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>CoinBase is a platform for trading your bitcoin and
+          <p className='text-xs sm:text-lg font-normal  sm:leading-7'>CoinBase is a platform for trading your bitcoin and
             giftcard at the best rate, why not give us a trial.</p>
           <button className='bg-white font-bold rounded-full self-start py-[17px] px-[32px]  font-poppins cursor-pointer text-sm ' >
             <span className="bg-gradient-to-b from-[#C35B95] to-[#B254AB]" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>GET STARTED</span>
@@ -44,7 +44,7 @@ const Getstart = () => {
             <div className=" w-full lg:pl-10 lg:py-4  ">
               <h1 className="font-bold text-2xl sm:font-bold sm:text-3xl mb-3 sm:leading-10 bg-gradient-to-b from-[#FD749B] to-[#B254AB] text-transparent bg-clip-text">Welcome to CoinBase</h1>
               <img src={line} alt="" />
-              <p className="leading-5 sm:leading-8 w-[90%]  py-5 text-[16px]  text-[#333333]">We have the best rates . Simply start your exchange right now. Sign up
+              <p className="leading-5 text-justify sm:leading-8 w-[90%]  py-5 text-[16px]  text-[#333333]">We have the best rates . Simply start your exchange right now. Sign up
                 for our Affiliate program and earn commission from each
                 exchange. The earnings are credited in your account instantly and
                 can be withdrawn right away. Also note some exchange directions
@@ -60,7 +60,7 @@ const Getstart = () => {
       </section>
 
       {/* OUR RATES OUR RESERVES LATEST EXCHANGES */}
-      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center mt-[-100px] h-[900px] bg-no-repeat bg-cover flex justify-center items-center '>
+      <div style={{ backgroundImage: `url(${Rates})` }} className='w-full bg-center mt-[-100px] h-[600px] lg:h-[870px] bg-no-repeat bg-cover flex justify-center items-center '>
         <div className='w-[80%] sm:w-[50%] sm:h-[43%] lg:w-[1070px] h-[300px]  shadow-xl scroll scroll rounded-[30px] overflow-y-auto mt-44 bg-white '>
           <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
             <p >OUR RATES</p>

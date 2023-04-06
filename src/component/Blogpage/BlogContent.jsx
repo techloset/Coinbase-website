@@ -51,7 +51,7 @@ const BlogContent = () => {
           </p>
 
           <section class="text-gray-600 ">
-            <div class="container py-5  sm:py-20 mx-auto flex flex-wrap">
+            <div class="container   sm:mt-[60px] mx-auto flex flex-wrap">
 
               <div class="flex flex-col flex-wrap lg:w-[50%]  xl:w-[40%] lg:text-left  text-center">
                 <div class="flex flex-col mb-5 sm:mb-10 lg:items-start items-center">
@@ -63,7 +63,7 @@ const BlogContent = () => {
 
                   </div>
                 </div>
-                <div class="flex flex-col mb-10 sm:mb-10 lg:items-start items-center">
+                <div class="flex flex-col  lg:items-start items-center">
 
                   <div class="flex-grow">
                     <p class="leading-relaxed text-start "> Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing
@@ -80,13 +80,13 @@ const BlogContent = () => {
             </div>
           </section>
 
-          <p className='sm:leading-7 mt-4 sm:mt-8 gap-y-6 font-normal text-sm text-justify'>
+          <p className='sm:leading-7  sm:mt-[60px] font-normal text-sm text-justify'>
             Your yacht is your hotel that travels with you. There is only one flight and one hotel to book!
             Then you take all of your luggage and unpack it just once to enjoy several days of new destinations.
 
           </p>
           <br />
-          <p className='sm:leading-7 mt-4 sm:mt-8 gap-y-6 font-normal text-sm text-justify'>
+          <p className='sm:leading-7 mt-4 sm:mt-5  font-normal text-sm text-justify'>
             If you have never experienced cruising before, a chartered experience is a great way to get your feet wet.
             It is different from cruise lines with thousands of guests because the people on your ship will be your friends
             and family. The personal touches of
@@ -117,12 +117,12 @@ const BlogContent = () => {
         </div>
       </div>
 
-      <div className='flex w-full flex-col  justify-center items-center gap-10'>
+      <div className='flex w-full flex-col mt-[140px] justify-center items-center gap-10'>
 
             <div className='sm:w-[50%] w-[70%] '>
 
               <p className='text-[24px] font-bold'>Leave A Comment</p>
-              <p>Your email address will not be published. Required fields are marked *</p>
+              <p className='pt-5'>Your email address will not be published. Required fields are marked *</p>
             </div>
             <form action="" className='flex flex-col items-center justify-center sm:w-[50%] w-[70%] gap-10'>
               <div className='w-full flex gap-5 md:gap-[4%] flex-col md:flex-row   '>
