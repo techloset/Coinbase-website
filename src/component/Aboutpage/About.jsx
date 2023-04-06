@@ -28,7 +28,7 @@ const About = () => {
 
         </div>
         <div >
-          <img src={img} alt="" className='mt-5 md:mt-[98px] w-[220px] h-[220px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px] ' />
+          <img src={img} alt="" className='mt-5 md:mt-[98px] w-[300px] h-[300px] lg:w-[549px] lg:h-[405px] md:w-[400px] md:h-[350px] ' />
         </div>
       </div>
 

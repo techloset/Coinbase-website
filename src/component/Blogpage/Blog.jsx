@@ -24,7 +24,7 @@ const Blog = () => {
 
         </div>
         <div className=''>
-          <img src={Img} alt="" className='' />
+          <img src={Img} alt="" className='max-md:w-[350px]' />
         </div>
       </div>
 
