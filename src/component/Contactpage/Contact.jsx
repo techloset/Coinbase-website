@@ -24,7 +24,7 @@ const Contact = () => {
             24/7 Customer support Including weekends.
           </h6>
           <p className="text-xs sm:text-lg font-normal  sm:leading-5">
-            We’re always there ti help regardless the number of queries at hand.
+            We’re always there ti help regardless the number <br /> of queries at hand.
           </p>
         </div>
         <div className="">

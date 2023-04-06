@@ -80,13 +80,13 @@ const BlogContent = () => {
             </div>
           </section>
 
-          <p className='sm:leading-7  sm:mt-[60px] font-normal text-sm text-justify'>
+          <p className='sm:leading-7  sm:mt-[60px] font-normal text-[16px] text-justify'>
             Your yacht is your hotel that travels with you. There is only one flight and one hotel to book!
             Then you take all of your luggage and unpack it just once to enjoy several days of new destinations.
 
           </p>
           <br />
-          <p className='sm:leading-7 mt-4 sm:mt-5  font-normal text-sm text-justify'>
+          <p className='sm:leading-7 mt-4 sm:mt-3  font-normal text-[16px] text-justify'>
             If you have never experienced cruising before, a chartered experience is a great way to get your feet wet.
             It is different from cruise lines with thousands of guests because the people on your ship will be your friends
             and family. The personal touches of

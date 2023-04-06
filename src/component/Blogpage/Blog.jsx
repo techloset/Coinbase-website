@@ -19,7 +19,7 @@ const Blog = () => {
           <p className='text-xs font-normal'>HOME/Blog</p>
 
           <h6 className='font-poppins text-2xl  font-bold sm:text-4xl sm:leading-[60px  ]'>Stay updated, <br /> Never miss a post.</h6>
-          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>Get to know the latest stuff about our services 
+          <p className='text-xs sm:text-lg font-normal  sm:leading-5'>Get to know the latest stuff about our services <br/>
             via our blog post.</p>
 
         </div>
